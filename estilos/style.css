@@ -23,22 +23,19 @@
     width: 100vw;
  }
  section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-    background-color: white;
-    height: 500px;
-    width: 250px;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow:0px 0px 10px black;
-    transition: width: 0.8s,height:0.8s;
-    
-
-    
- }
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       background-color: white;
+       height: 500px;
+       width: 250px;
+       border-radius: 25px;
+       overflow: hidden;
+       box-shadow:0px 0px 10px black;
+       transition: width: 0.8s,height:0.8s;
+   } 
+       
  section#login>div#imagem{
     display: block;
     background: #0CEDC2 url(../imagens/triunfo.jpg);
@@ -58,4 +55,34 @@
  }
  div#formulario>p{
    font-size: 0.7em;
+ }
+ form > input[type=submit] {
+   display: block ;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   background-color:#07a789;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ form> input[type=submit]:hover{
+   background-color: #023b31;
+ }
+ form>a.botao{
+   display: block;
+   text-align: center;
+   font-size: 1em;
+   margin-top: 3px;
+   width: 100%;
+   height: 40px;
+   background-color:  white;
+   text-decoration: none;
+   color: #001b47;
+   border: 1px solid  #011638;
+   border-radius: 5px;
+ }
+ form>a.botao:hover{
+   background-color: #4c89ec;
  }
